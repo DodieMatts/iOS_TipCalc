@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func onTap(_ sender: Any) {
-        print("Hello Motto")
+        print("Hello World")
         view.endEditing(true)
     }
     
@@ -49,5 +49,7 @@ class ViewController: UIViewController {
         tipLabel.text = String(format: "$%.2f ", tip)
         totalLabel.text = String(format: "$%.2f ", total)
     }
+    
+    
 }
 
